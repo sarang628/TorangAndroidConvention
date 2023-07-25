@@ -14,9 +14,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "AddReview(프로젝트명)"
+
+rootProject.name = "Feed(프로젝트명)"
 include ':app'
 include ':library'
 ```
